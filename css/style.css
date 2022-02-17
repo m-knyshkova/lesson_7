@@ -1,0 +1,161 @@
+@import "null.css";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 810px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 10px 10px 10px blue;
+}
+.text {
+  background-color: rgba(255, 229, 0, 0.1);
+  background-image: url(../img/kartoshka.jpg);
+  margin-bottom: 20px;
+}
+.text1 {
+  background: rebeccapurple url(../img/limonny.jpg);
+  margin-bottom: 20px;
+}
+
+.text2 {
+  background-color: aqua;
+  background-image: url(../img/Group8.png);
+  margin-bottom: 20px;
+}
+
+.text3 {
+  background: rgb(68, 0, 255) url(../img/Group8.png);
+  margin-bottom: 20px;
+}
+.text4 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(236, 157, 216) 10%,
+    rgb(24, 238, 117) 30%,
+    rgb(89, 212, 32) 40%
+  );
+  margin-bottom: 24px;
+}
+.text5 {
+  background: rebeccapurple url(../img/log.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+
+.text6 {
+  background: rgb(255, 175, 55) url(../img/log.jpg);
+  background-repeat: repeat-x;
+  margin-bottom: 24px;
+}
+.text7 {
+  background: rgb(100, 148, 62) url(../img/log.jpg);
+  background-repeat: repeat-y;
+  margin-bottom: 24px;
+}
+.text8 {
+  background: rebeccapurple url(../img/log.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+  background-position: top;
+}
+
+.text9 {
+  background: red url(../img/log.jpg);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  margin-bottom: 24px;
+}
+.text10 {
+  background: blueviolet url(../img/log.jpg);
+  background-repeat: no-repeat;
+  background-position: 10px 50px;
+  margin-bottom: 24px;
+}
+.text11 {
+  background-color: aquamarine;
+  background-image: url(../img/log.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-bottom: 24px;
+  background-size: 200px auto;
+}
+
+.text12 {
+  background-color: aquamarine;
+  background-image: url(../img/log.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-bottom: 24px;
+  background-size: contain;
+}
+.text12 {
+  background-color: aquamarine;
+  background-image: url(../img/log.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 24px;
+  background-size: cover;
+}
+.text14 {
+  background-color: aquamarine;
+  background-image: url(../img/log.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-bottom: 24px;
+  background-size: auto;
+  background-attachment: scroll;
+}
+.list {
+  margin-bottom: 24px;
+}
+
+.item-list {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 0 0 0 25px;
+}
+
+.item-list1 {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  text-indent: 25px;
+}
+.item-list2 {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 25px;
+  min-height: 25px;
+  padding: 0 0 0 35px;
+  margin: 0 0 0 5px;
+}
+
+.sub-list {
+  margin-left: 25px;
+}
+.item-sub-list {
+  background-image: url(../img/images.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding: 0 0 0 25px;
+  margin: 0 0 5px 0;
+}
+.text15 {
+  background: linear-gradient(
+      180deg,
+      rgba(131, 58, 180, 0) 0%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url(../img/limonny.jpg) center / cover no-repeat;
+}
